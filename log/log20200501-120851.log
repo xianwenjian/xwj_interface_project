@@ -1,0 +1,9 @@
+2020-05-01 12:08:51,718 INFO [root] [test_login.py(test_login_success:33)] -======进入登陆成功测试用例======
+2020-05-01 12:08:51,718 INFO [root] [login_api.py(get_login_verify_code:19)] -*********API中:获取验证码的方法*********
+2020-05-01 12:08:54,043 INFO [root] [login_api.py(login:24)] -*********API中:登录方法*********
+2020-05-01 12:08:56,307 INFO [root] [test_login.py(test_login_username_is_not_exist:44)] -======进入用户名不存在测试用例======
+2020-05-01 12:08:56,307 INFO [root] [login_api.py(get_login_verify_code:19)] -*********API中:获取验证码的方法*********
+2020-05-01 12:08:58,496 INFO [root] [login_api.py(login:24)] -*********API中:登录方法*********
+2020-05-01 12:09:00,643 INFO [root] [test_login.py(test_login_verify_code_is_error:55)] -======进入密码错误测试用例======
+2020-05-01 12:09:00,643 INFO [root] [login_api.py(get_login_verify_code:19)] -*********API中:获取验证码的方法*********
+2020-05-01 12:09:02,836 INFO [root] [login_api.py(login:24)] -*********API中:登录方法*********
