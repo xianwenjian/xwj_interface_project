@@ -12,7 +12,7 @@ def init_log_config():
     sh = logging.StreamHandler()
     # 创建文件处理器
 
-    log_path = "../log/log{}.log".format(time.strftime("%Y%m%d-%H%M%S"))
+    log_path = "./log/log{}.log".format(time.strftime("%Y%m%d-%H%M%S"))
     fh = logging.handlers.TimedRotatingFileHandler(log_path, when="midnight", interval=1, backupCount=7,
                                                    encoding="UTF-8")
     # 创建格式化器
